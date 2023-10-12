@@ -1,4 +1,4 @@
-﻿Argument 1: Attacker IP Address
-Argument 2: Lnk Filename
+﻿Argument 1: Attacker IP Address  
+Argument 2: Lnk Filename  
 
-> .\lnkerator.exe 192.168.254.118 test
+> .\lnkerator.exe 192.168.254.118 test  
