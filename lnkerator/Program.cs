@@ -27,7 +27,7 @@ namespace lnkerator
             Console.ReadKey();
         }
 
-        public void GenerateLnk()
+        private void GenerateLnk()
         {
             WshShell wshShell = new WshShell();
             IWshRuntimeLibrary.IWshShortcut? shortcut = wshShell.CreateShortcut(this.shortcutName + ".lnk") as
